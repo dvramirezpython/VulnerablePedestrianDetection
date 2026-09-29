@@ -1,8 +1,8 @@
 # Python
 __pycache__/
 # *.py[cod]
-*$py.class
-.Python
+# *$py.class
+# .Python
 *.egg
 *.egg-info/
 dist/
@@ -26,10 +26,9 @@ ENV/
 .coverage
 htmlcov/
 
-# Local datasets and model weights
+# Local datasets and model weights except published weights
 /dataset/
 /weights/others/
-*.pt
 *.onnx
 *.engine
 
