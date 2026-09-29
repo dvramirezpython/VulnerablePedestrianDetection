@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+# *.py[cod]
+*$py.class
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+develop-eggs/
+eggs/
+src/conversion_lib/
+
+# Virtual environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+ENV/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local datasets and model weights
+/dataset/
+/weights/others/
+*.pt
+*.onnx
+*.engine
+
+# Generated Ultralytics training and inference runs
+/runs*/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Editor and operating system files
+.idea/
+.DS_Store
+Thumbs.db
