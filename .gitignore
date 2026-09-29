@@ -11,6 +11,9 @@ develop-eggs/
 eggs/
 src/conversion_lib/
 
+# Internat documentation of the project
+docs/
+
 # Virtual environments
 .env
 .env.*
